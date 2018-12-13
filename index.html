@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Search movies</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+</head>
+
+<body>
+
+<div class="container">
+  
+<h2>Movie information service</h2>
+<h4>Get all information you need about the movies you love</h4>
+  
+<form class="form-inline">
+<label for="inputMovieName">Show me information about</label>
+<input type="text" class="form-control mb-2 mr-sm-2" id="inputMovieName"/>
+<button type="button" class="btn btn-primary mb-2" onclick="getMovieInfo()">Get movie info</button>
+</form>
+
+<div id="divResult">
+</div>
+
+</div>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script type="application/javascript" src="movies.js"></script>
+</body>
+
+</html>
